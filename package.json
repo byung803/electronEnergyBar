@@ -1,0 +1,17 @@
+{
+  "name": "energybar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "electron": "^1.7.10",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.0.0-rc0"
+  }
+}

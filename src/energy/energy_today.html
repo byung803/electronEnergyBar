@@ -1,0 +1,74 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-success mb-3">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand">Life</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./energy_index.html" class="nav-link text-white">Energy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../work/work_index.html" class="nav-link">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../hobby/hobby_index.html" class="nav-link">Hobby</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../../index.html" class="nav-link">Total</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Setting</a>
+                </li>
+            </ul>
+        </div>
+  </nav>
+  <div class="row justify-content-around mx-2">
+    <a href="./energy_today.html" class="btn btn-outline-success col-3 active">Today</a>
+    <a href="./energy_week.html" class="btn btn-outline-success col-3">Week</a>
+    <a href="./energy_month.html" class="btn btn-outline-success col-3">Month</a>
+    <a href="./energy_clear.html" class="btn btn-outline-success col-3">Clear</a>
+  </div>
+</head>
+<body>
+  <div class="row justify-content-around m-2">
+    <div class="col-2"></div>
+    <div class="col-6 m-auto h2" id="date"></div>
+    <div>
+      <a class="btn btn-outline-info" href="./energy_today_edit.html"><span class="h4">Edit</span></a>
+    </div>
+  </div>
+
+
+  <div id="energy">
+    <div class="row justify-content-around m-2">
+      <button class="btn btn-outline-secondary btn-block" id="noFap">No fap</button>
+    </div>
+    <div class="row justify-content-around m-2">
+      <button class="btn btn-outline-secondary btn-block" id="exercise">운동</button>
+    </div>
+    <div class="row justify-content-around m-2">
+      <button class="btn btn-outline-secondary btn-block" id="noGameView">게임</button>
+    </div>
+    <div class="row justify-content-around m-2">
+      <button class="btn btn-outline-secondary btn-block" id="sleep">수면</button>
+    </div>
+    <div class="row justify-content-around m-2">
+      <button class="btn btn-outline-secondary btn-block" id="drink">음주</button>
+    </div>
+    <div class="row justify-content-around m-2">
+      <button class="btn btn-outline-secondary col-2" id="food1">아침</button>
+      <button class="btn btn-outline-secondary col-2" id="food2">간식</button>
+      <button class="btn btn-outline-secondary col-2" id="food3">점심</button>
+      <button class="btn btn-outline-secondary col-2" id="food4">간식</button>
+      <button class="btn btn-outline-secondary col-2" id="food5">저녁</button>
+      <button class="btn btn-outline-secondary col-2" id="food6">간식</button>
+    </div>
+  </div>
+
+<script src="../json/energy_today.json"></script>
+<script src="./energy_today.js"></script>
+</body>
